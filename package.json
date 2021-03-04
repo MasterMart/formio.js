@@ -152,5 +152,8 @@
     "webpack": "^5.23.0",
     "webpack-stream": "^6.1.2",
     "written-number": "^0.9.1"
+  },
+  "scripts": {
+    "postinstall": "cd node_modules/formio && npm install && npm run build"
   }
 }
